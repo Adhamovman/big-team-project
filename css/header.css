@@ -26,28 +26,27 @@
 .btn-header-cus {
   background: #ffc000;
 }
-
 .btn-header-cus:hover {
   background-color: #ffdb6e;
 }
+
 .btn-close-cus {
   border-radius: 0;
   color: #000000;
 }
 .btn-close-cus:hover {
-
   color: #fff;
   text-decoration: none;
-  opacity: .75;
+  opacity: 0.75;
   background-color: red;
 }
-
 .btn-close-cus:focus {
   outline: 0;
   background-color: red;
   box-shadow: none;
   opacity: 1;
 }
+
 .nav-link-cus {
   font-weight: 500;
   font-size: 14px;
@@ -66,7 +65,6 @@
   font-size: 20px;
   border: none;
 }
-
 .navbar-toggler-cus:focus {
   text-decoration: none;
   outline: 0;

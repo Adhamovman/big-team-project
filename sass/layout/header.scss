@@ -9,6 +9,7 @@
   font-feature-settings: "pnum" on, "lnum" on;
   color: #0d0d0d;
 }
+
 .language-nav {
   background: #0d0d0d;
   a {
@@ -21,12 +22,31 @@
     color: #fff;
   }
 }
+
 .btn-header-cus {
   background: #ffc000;
+  &:hover {
+    background-color: #ffdb6e;
+  }
 }
-.btn-header-cus:hover {
-  background-color: #ffdb6e;
+
+.btn-close-cus {
+  border-radius: 0;
+  color: #000000;
+  &:hover {
+    color: #fff;
+    text-decoration: none;
+    opacity: 0.75;
+    background-color: red;
+  }
+  &:focus {
+    outline: 0;
+    background-color: red;
+    box-shadow: none;
+    opacity: 1;
+  }
 }
+
 .nav-link-cus {
   font-weight: 500;
   font-size: 14px;
@@ -34,20 +54,19 @@
   font-feature-settings: "pnum" on, "lnum" on;
   color: #000000;
 }
-.shop-cart {
-  img {
-    max-width: 25px;
-  }
+
+.shop-cart img {
+  max-width: 25px;
 }
+
 .navbar-toggler-cus {
+  border-radius: 0;
   padding: 0;
   font-size: 20px;
   border: none;
+  &:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: none;
+  }
 }
-.navbar-toggler-cus:focus {
-  text-decoration: none;
-  outline: 0;
-  box-shadow: none;
-}
-
- 
