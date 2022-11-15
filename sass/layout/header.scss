@@ -1,0 +1,53 @@
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+.navbar-brand-cus {
+  font-weight: 700;
+  font-size: 23px;
+  letter-spacing: 0.4px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #0d0d0d;
+}
+.language-nav {
+  background: #0d0d0d;
+  a {
+    text-decoration: none;
+    font-size: 10px;
+    padding: 10px 0;
+    color: rgba(255, 255, 255, 0.3);
+  }
+  .active__link {
+    color: #fff;
+  }
+}
+.btn-header-cus {
+  background: #ffc000;
+}
+.btn-header-cus:hover {
+  background-color: #ffdb6e;
+}
+.nav-link-cus {
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.1px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #000000;
+}
+.shop-cart {
+  img {
+    max-width: 25px;
+  }
+}
+.navbar-toggler-cus {
+  padding: 0;
+  font-size: 20px;
+  border: none;
+}
+.navbar-toggler-cus:focus {
+  text-decoration: none;
+  outline: 0;
+  box-shadow: none;
+}
+
+ 
