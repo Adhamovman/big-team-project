@@ -111,7 +111,12 @@ button:focus {
   padding-top: 32px;
 }
 .shop__logo img {
+  height: 107px;
   width: 245px;
+}
+.shop__logo img:hover {
+  border: 1px solid #ffc000;
+  transform: scale(1.03);
 }
 
 .category {
@@ -139,10 +144,15 @@ button:focus {
 }
 .category .clothes div:hover {
   background: white;
-  border: 4px solid #ffc000;
+  border: 2px solid #ffc000;
 }
 .category .clothes img {
+  height: 81px;
   width: 215px;
+}
+.category .clothes img:hover {
+  border: 1px solid #ffc000;
+  transform: scale(1.03);
 }
 
 @media only screen and (max-width: 580px) {
