@@ -18,12 +18,6 @@ button:focus {
   outline: none;
 }
 
-<<<<<<< HEAD
-body, input {
-  background: #e5e5e5;
-}
-
-=======
 .navbar-brand-cus {
   font-weight: 700;
   font-size: 23px;
@@ -138,7 +132,10 @@ footer a {
     display: block;
   }
 }
->>>>>>> 9f3a8ddf759c5338157a2dd1304ddee81ba786a8
+body {
+  background: #e5e5e5;
+}
+
 * img {
   width: 100%;
 }

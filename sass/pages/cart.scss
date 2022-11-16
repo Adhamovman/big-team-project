@@ -169,4 +169,13 @@ span{
 padding: 8px 24px;
 background: #FFC000;
 border-radius: 6px;
+&:hover{
+    background: #887d5c;
+}
+}
+.card{
+    border-radius: 16px 16px 0px 0px;
+    &:hover{
+        background:#999;
+    }
 }

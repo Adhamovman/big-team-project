@@ -285,4 +285,14 @@ span {
   padding: 8px 24px;
   background: #FFC000;
   border-radius: 6px;
+}
+.btn3:hover {
+  background: #887d5c;
+}
+
+.card {
+  border-radius: 16px 16px 0px 0px;
+}
+.card:hover {
+  background: #999;
 }/*# sourceMappingURL=cart.css.map */
