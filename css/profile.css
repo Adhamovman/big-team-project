@@ -20,6 +20,10 @@ button:focus {
   outline: none;
 }
 
+body, input {
+  background: #e5e5e5;
+}
+
 * img {
   width: 100%;
 }
