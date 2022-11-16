@@ -7,10 +7,17 @@
     <title>Profile</title>
     <link rel="stylesheet" href="../css/bootstrap.min.css" />
     <link rel="stylesheet" href="../css/profile.css" />
+    <link rel="stylesheet" href="../css/header.css" />
   </head>
   <body>
+    <header w3-include-html="topheader.html"></header>
+    <header
+      class="sticky-top"
+      id="header"
+      w3-include-html="navbar.html"
+    ></header>
     <div class="container">
-      <div class="d-flex flex-lg-row flex-column justify-content-between">
+      <div class="d-flex flex-lg-row flex-column justify-content-between p-5">
         <div class="col4">
           <div class="d-flex flex-column gap-2">
             <img src="../images/Profile-img.png" alt="" />
@@ -43,7 +50,9 @@
                   value="+998 (93) 552-22-22"
                 />
               </div>
-              <label for="inputPassword5" class="form-label same-text">Password</label>
+              <label for="inputPassword5" class="form-label same-text"
+                >Password</label
+              >
               <input
                 type="password"
                 id="inputPassword5"
@@ -60,7 +69,9 @@
         <div class="col4">
           <div>
             <div class="mb-3">
-              <label for="exampleInputaddress" class="form-label same-text ">Адрес</label>
+              <label for="exampleInputaddress" class="form-label same-text"
+                >Адрес</label
+              >
               <input
                 type="address"
                 class="form-control"
@@ -73,7 +84,9 @@
         </div>
       </div>
     </div>
+    <footer w3-include-html="footer.html"></footer>
 
     <script src="../js/bootstrap.bundle.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
