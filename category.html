@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CATEGORY</title>
+    <title>CATEGORIES</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -22,7 +22,14 @@
     <link rel="stylesheet" href="/css/header.css" />
   </head>
   <body>
-    <header id="header">
+    <header w3-include-html="topheader.html"></header>
+    <header
+      class="sticky-top"
+      id="header"
+      w3-include-html="navbar.html"
+    ></header>
+
+    <!-- <header id="header">
       <nav class="d-none d-lg-block language-nav">
         <div class="container">
           <a class="active__link d-inline-block" href="#">RU</a>
@@ -81,7 +88,7 @@
                 <a class="nav-link nav-link-cus" href="./about.html">О нас</a>
               </li>
               <li class="d-flex align-items-center nav-item ms-0 ms-lg-3">
-                <a class="nav-link nav-link-cus" href="./categories.html">
+                <a class="nav-link nav-link-cus" href="./category.html">
                   Категории
                 </a>
               </li>
@@ -111,7 +118,7 @@
           <img src="../images/navbar-shopping-cart.png" alt=""
         /></a>
       </div>
-    </nav>
+    </nav> -->
     <main>
       <section id="category">
         <div class="container">
@@ -525,6 +532,8 @@
         </div>
       </section>
     </main>
+    <footer w3-include-html="footer.html"></footer>
+
     <script src="../js/bootstrap.bundle.js"></script>
     <script src="/js/accordion.js"></script>
   </body>
