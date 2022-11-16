@@ -51,6 +51,9 @@
     padding-bottom: 80px;
 }
 @media screen and (max-width: 576px) {
+    .iframe{
+      width: 100%;
+    }
     .phone {
         width: 100%;
         top: -70px;
