@@ -22,7 +22,14 @@
     <link rel="stylesheet" href="/css/header.css" />
   </head>
   <body>
-    <header id="header">
+    <header w3-include-html="topheader.html"></header>
+    <header
+      class="sticky-top"
+      id="header"
+      w3-include-html="navbar.html"
+    ></header>
+
+    <!-- <header id="header">
       <nav class="d-none d-lg-block language-nav">
         <div class="container">
           <a class="active__link d-inline-block" href="#">RU</a>
@@ -111,7 +118,7 @@
           <img src="../images/navbar-shopping-cart.png" alt=""
         /></a>
       </div>
-    </nav>
+    </nav> -->
     <main>
       <section id="category">
         <div class="container">
@@ -525,6 +532,8 @@
         </div>
       </section>
     </main>
+    <footer w3-include-html="footer.html"></footer>
+
     <script src="../js/bootstrap.bundle.js"></script>
     <script src="/js/accordion.js"></script>
   </body>
